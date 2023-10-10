@@ -1,0 +1,123 @@
+
+@media (min-width: 0) and (max-width: 1200px) {
+
+
+    .sidebar{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 55px;
+    
+        background-color: white;
+        width: 70px;
+        z-index: 200;
+        padding-top: 4px;
+    
+    } 
+    
+    
+    .sidebar-link{
+        background-color: rgb(255, 255, 255);
+        height: 70px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    } 
+    
+    .sidebar-link:hover{
+        background-color: rgb(231, 225, 225);
+        cursor: pointer;
+    }
+    
+    
+    
+    .sidebar-link img{
+        height: 24px;
+        margin-bottom: 4px;
+        
+    }
+    .sidebar-link div{
+        font-family: Roboto, Arial;
+        font-size: 10px;
+    
+    }
+}
+
+
+
+
+@media (max-width: 1200px ) {
+    .sidebar-link{
+        background-color: rgb(255, 255, 255);
+        height: 70px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    } 
+    
+    
+    .sidebar-link:hover{
+        background-color: rgb(231, 225, 225);
+        cursor: pointer;
+    }
+    
+    
+    
+    .sidebar-link img{
+        height: 24px;
+        margin-bottom: 4px;
+        
+    }
+    .sidebar-link div{
+        font-family: Roboto, Arial;
+        font-size: 10px;
+    
+    }
+}
+
+
+/* The Second sidebar */ 
+
+@media (min-width: 1200.1px) {
+    body{
+        margin-left: 160px;
+    }
+    .sidebar{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 55px;
+    
+        background-color: white;
+        width: 230px;
+        z-index: 200;
+        padding-top: 4px;
+    
+    } 
+
+    .sidebar-link{
+        display: flex;
+        align-items: center;
+        
+        padding: 10px 24px;
+    }
+
+    
+    .sidebar-link img{
+        height: 30px;
+        margin-right: 22px;
+    }
+
+    .sidebar-link:hover{
+        background-color: rgb(231, 225, 225);
+        cursor: pointer;
+    }
+
+    .sidebar-link div{
+        font-family: Roboto, Arial;
+        font-size: 15px;
+    
+    }
+  }
